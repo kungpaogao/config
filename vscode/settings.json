@@ -1,0 +1,96 @@
+{
+  // telemetry lol
+  "telemetry.telemetryLevel": "off",
+  // dart
+  "dart.flutterSdkPath": "",
+  // git settings
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  // editor ui settings
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Atom One Light",
+  "editor.renderWhitespace": "none",
+  // suggested settings for 3110
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  // code suggestions
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // formatting and linting options
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  // css validation
+  "css.validate": false,
+  "scss.validate": false,
+  "vetur.validation.style": false,
+  // c and c++ config
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 80 }",
+  // editor highlighting
+  "files.trimTrailingWhitespace": true,
+  "todohighlight.isEnable": true,
+  // python
+  "python.pythonPath": "/usr/local/opt/python@2/bin/python2.7",
+  "python.autoUpdateLanguageServer": false,
+  "python.jediEnabled": false,
+  // other
+  "files.insertFinalNewline": true,
+  "workbench.sideBar.location": "right",
+  "editor.accessibilitySupport": "off",
+  // terminal
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "svelte.enable-ts-plugin": true,
+}
