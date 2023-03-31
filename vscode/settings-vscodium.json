@@ -1,0 +1,47 @@
+{
+  "telemetry.telemetryLevel": "off",
+  // theme & appearance
+  "workbench.colorTheme": "Atom One Light",
+  "workbench.sideBar.location": "right",
+  "editor.accessibilitySupport": "off",
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {},
+  // editor & formatting
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "http.systemCertificates": false,
+  "docwriter.hotkey.mac": "⌥ + .",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.stickyScroll.enabled": true
+}
